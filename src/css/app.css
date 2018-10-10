@@ -1,0 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.recolorizer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+}

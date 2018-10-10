@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --outDir ./dist/app && copy src\\index.html dist\\index.html && xcopy src\\css dist\\css /s/h/e/k/f/c",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/arcgis-js-api": "^4.9.0",
+    "dojo-typings": "^1.11.6",
+    "typescript": "^3.1.2"
+  },
+  "dependencies": {}
+}

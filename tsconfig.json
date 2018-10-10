@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "tsx",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "noResolve": true,
+    "lib": [
+      "es5",
+      "es2015.promise",
+      "es2015.iterable",
+      "es2015.symbol",
+      "dom",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules/dojo-typings/custom"
+  ],
+  "include": [
+    "src/app/**/*.ts",
+    "node_modules/dojo-typings/dojo/**/*d.ts",
+    "node_modules/dojo-typings/dijit/**/*d.ts",
+    "node_modules/dojo-typings/dojox/**/*d.ts",
+    "node_modules/dojo-typings/doh/**/*d.ts"
+  ]
+}
